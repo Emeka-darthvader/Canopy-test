@@ -12,3 +12,21 @@ The unit tests while written and can be run using **unit_tests.py**
 ### Other Files ###
 1. **standardize_input.py**. This file contains implementation for date and number formatting
 2. **helper_modules/response_messages.py**. This file contains implementation for response messages
+
+## Soon to Come ##
+Data cleaning on the dataset can be improved. Currently working on the module to read through every line, it is seen that Booking Text has distinct patterns: 
+
+{
+    INTEREST ...
+    Contract ...
+    0.810000% ...
+    06.04.2018 ...
+
+}
+
+and
+
+{
+FOREX ...
+EUR ...
+}
